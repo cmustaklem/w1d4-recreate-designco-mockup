@@ -1,0 +1,139 @@
+* {
+    box-sizing: border-box;
+}
+
+.graybar {
+    width: 100%;
+    background-color: rgb(204, 206, 207);
+}
+
+.redbar {
+    width: 800px;
+    margin: 0 auto;
+    background-color: red;
+    height: 5px;
+}
+
+header ul {
+    display: -webkit-flex;
+    /*padding-top: 5px;*/
+    padding-bottom: 10px;
+    padding-left: 250px;
+    list-style: none;
+}
+
+.designco {
+    color: black;
+    padding-right: 10px;
+}
+
+.redhome {
+    color: red;
+}
+
+.searchbutton {
+    /*display: block;*/
+
+    /*float: right;*/
+    padding-left: 300px;
+}
+
+.searchbutton2 {
+    width: 20px;
+}
+
+header li {
+    padding-left: 10px;
+}
+
+.headingbox {
+    background-color: white;
+    color: rgb(52, 59, 55);
+}
+
+main h1 {
+    padding: 10px;
+}
+
+main {
+    /*justify-content: center;
+    align-items: center;*/
+    margin: 0 auto;
+    text-align: center;
+    color: rgb(59, 60, 60);
+    padding-bottom: 20px;
+}
+
+.grid {
+    max-width: 920px;
+    display: flex;
+    margin: 0 auto;
+}
+
+.col {
+    flex: 7;
+    /*transition: all 1s ease;*/
+    /*opacity: .1;*/
+    /*padding: 5px;*/
+    max-width: 460px;
+    columns: 1;
+    padding-right: 10px;
+}
+
+.colsecondrow {
+    display: flex;
+}
+
+.col2 img {
+    display: block;
+}
+
+.col2imgone {
+    height: 200px;
+    flex: 1.8;
+}
+
+.col2imgtwo {
+    height: 400px;
+    flex: 1.2;
+}
+
+.innercolumnrow {
+    display: -webkit-flex;
+    /*padding: 10px;*/
+    padding: 5px;
+}
+
+.col2img1 {
+    height: 150px;
+}
+
+.col2img2 {
+    height: 200px;
+}
+
+.bottumtext {
+    max-width: 800px;
+    display: flex;
+    display: flex;
+    margin: 0 auto;
+    columns: 2;
+    font-size: 12px;
+}
+
+.bottumshorttext {
+    max-width: 250px;
+    padding-top: 20px;
+    margin-left: 2px;
+}
+
+.redhome2 {
+    color: red;
+}
+
+.bottumlongtext {
+    max-width: 622px;
+    padding-top: 20px;
+    flex-wrap: wrap;
+    columns: 3;
+}
