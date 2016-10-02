@@ -55,6 +55,10 @@ header ul {
     padding-right: 10px;
 }
 
+.redhome:link {
+    text-decoration: red;
+}
+
 .redhome {
     color: red;
 }
@@ -73,6 +77,10 @@ header li {
     color: rgb(52, 59, 55);
 }
 
+li {
+    color: black;
+}
+
 main h1 {
     padding: 10px;
 }
@@ -88,6 +96,15 @@ main {
     text-align: center;
     color: rgb(59, 60, 60);
     padding-bottom: 20px;
+}
+
+/*li a {
+text-decoration: none;
+}*/
+
+a:link {
+    text-decoration: none;
+    color: black;
 }
 
 .wrapper {
