@@ -101,6 +101,31 @@ main {
     width: 100%;
 }
 
+.col1row1:hover {
+    transform: scale(1.0505);
+    transition: all 1s ease;
+}
+
+.col1row2a:hover {
+    transform: scale(1.0505);
+    transition: all 1s ease;
+}
+
+.col1row2b:hover {
+    transform: scale(1.05);
+    transition: all 1s ease;
+}
+
+.col2row1:hover {
+    transform: scale(1.05);
+    transition: all 1s ease;
+}
+
+.col2row2:hover {
+    transform: scale(1.05);
+    transition: all 1s ease;
+}
+
 .column1 {
     flex-direction: column;
     display: flex;
